@@ -41,7 +41,7 @@ According to the quotient rule, the derivative of the sigmoid function is
 
 $$ \frac{d p(z)}{d z} = \frac{ \frac{d e^z}{d f}(1+e^z) - e^f\frac{d}{d z}(1+e^z) }{ (1+e^z)^2 } = \frac{e^z(1+e^z) - e^z e^z}{ (1+e^z)^2 } = \frac{e^z}{ (1+e^z)^2 } = p(1-p) $$
 
-When weâ€™re backpropagating the errors in a network through a layer with a sigmoid activation function, $p$ is already computed.
+When weÃ¢â‚¬â„¢re backpropagating the errors in a network through a layer with a sigmoid activation function, $p$ is already computed.
 
 ## Softmax
 
@@ -61,28 +61,11 @@ The derivative of softmax is complex and lengthy because softmax has both multiv
 
 ## Hyperbolic Tangent
 
-The tanh function is defined as
+As explained in [the previous article](./Derivatives.md), the tanh function is defined as
  
 $$ \tanh(x) = \frac{ \sinh(x) }{ \cosh(x) } $$
  
-where
- 
-$$ \sinh(x) = \frac{ e^x - e^{-x} }{ 2 } $$
- 
 and
- 
-$$ \cosh(x) = \frac{ e^x + e^{-x} }{ 2 } $$
- 
- 
-It is easy to verify that
-
-$$ \frac{d}{d x} \sinh(x) = \cosh(x) $$ 
-
-and
-
-$$ \frac{d}{d x} \cosh(x) = \sinh(x) $$
-
-so according to the quotient rule, we have
 
 $$ \frac{d}{d x} \tanh(x) = \frac{ \frac{d}{d x} \sinh(x) \cosh(x) - \sinh(x) \frac{d}{d x} \cosh(x) }{ \cosh^2(x) } = 1 - \tanh^2(x) $$
 

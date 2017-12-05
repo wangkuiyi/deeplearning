@@ -120,3 +120,29 @@ $$ f(x) = \log_a(x) $$
    
    $$ \frac{d}{d x} \log_a(x) = \frac{1}{x \ln(a)} $$
    
+## Hyperbolic Functions
+
+The tanh function is defined as
+ 
+$$ \tanh(x) = \frac{ \sinh(x) }{ \cosh(x) } $$
+ 
+where
+
+$$ \sinh(x) = \frac{ e^x - e^{-x} }{ 2 } $$
+ 
+and
+ 
+$$ \cosh(x) = \frac{ e^x + e^{-x} }{ 2 } $$
+ 
+ 
+It is easy to verify that
+
+$$ \frac{d}{d x} \sinh(x) = \cosh(x) $$ 
+
+and
+
+$$ \frac{d}{d x} \cosh(x) = \sinh(x) $$
+
+so according to the quotient rule, we have
+
+$$ \frac{d}{d x} \tanh(x) = \frac{ \frac{d}{d x} \sinh(x) \cosh(x) - \sinh(x) \frac{d}{d x} \cosh(x) }{ \cosh^2(x) } = 1 - \tanh^2(x) $$
