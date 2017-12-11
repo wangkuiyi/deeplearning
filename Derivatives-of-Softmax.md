@@ -5,6 +5,9 @@ I found
 But this article presents another one I learned from my colleague
 [Ying Cao](https://github.com/lcy-seso) and is much more concise.
 
+Update 2017/12/10: I just read this awesome [blog post](https://deepnotes.io/softmax-crossentropy), which presents extactly the same derivation as in this article.
+
+
 ## The Softmax Activation
 
 The softmax function, $g(z_1, \ldots, z_K)$, as explained
