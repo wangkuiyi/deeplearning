@@ -7,3 +7,4 @@
 1. [Levenshtein Distance and WER](https://github.com/wangkuiyi/deeplearning/blob/develop/pdf/WER.pdf)
 1. [LSTM: Forward and Backward](https://github.com/wangkuiyi/deeplearning/blob/develop/pdf/LSTM.pdf)
 1. [CTC: Connectionist Temporal Classification](https://github.com/wangkuiyi/deeplearning/blob/develop/pdf/CTC.pdf)
+1. [LSA: Listen-Attend-Spell](https://github.com/wangkuiyi/deeplearning/blob/develop/pdf/LAS.pdf)
