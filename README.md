@@ -8,3 +8,4 @@
 1. [LSTM: Forward and Backward](https://github.com/wangkuiyi/deeplearning/blob/develop/pdf/LSTM.pdf)
 1. [CTC: Connectionist Temporal Classification](https://github.com/wangkuiyi/deeplearning/blob/develop/pdf/CTC.pdf)
 1. [LSA: Listen-Attend-Spell](https://github.com/wangkuiyi/deeplearning/blob/develop/pdf/LAS.pdf)
+1. [HMM: Hidden Markov Model](https://github.com/wangkuiyi/deeplearning/blob/develop/pdf/HMM.pdf)
