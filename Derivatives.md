@@ -14,7 +14,7 @@ Use the Binomial Theorem, we have:
 
 $$(x+h)^n = \sum_{k=0}^n \binom{n}{k} x^{n-k} h^k $$
 
-Because the first term in the above summzation is $x^n$, so we have:
+Because the first term in the above summation is $x^n$, so we have:
 
 $$ \frac{(x+h)^n - x^n}{h} = \frac{ \sum_{k=1}^n \binom{n}{k} x^{n-k} h^k }{h} $$
 
